@@ -6,16 +6,21 @@ A piano from javafx samples
 
 Install openjfx sdk to be used as a module (beware windows vs linux)
 
+### Requirements
+
+- jdk21+
+- openjfx 23
 
 ### Build WSL
 
 To build : under wsl, install the linux openjfx sdk 
-Ex : 
+Ex :
+<pre>
 piano
  |---> lib lib/javafx-sdk-23.0.1/lib/
  |---> src
  |---> pom.xml
-
+</pre>
 
 ### Run : windows
 
